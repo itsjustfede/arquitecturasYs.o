@@ -1,0 +1,8 @@
+kernel.org
+command shell
+
+command cheat sheet for linux
+
+
+rom de control
+command shell terminator
