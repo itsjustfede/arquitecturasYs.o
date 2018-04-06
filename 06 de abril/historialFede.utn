@@ -1,0 +1,160 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  mozilla
+    7  nmap
+    8  mozilla
+    9  firefox
+   10  ls
+   11  cd Escritorio
+   12  mkdir fff
+   13  cd fff
+   14  ls
+   15  cd ..
+   16  del fff
+   17  mk --help
+   18  vi
+   19  clear
+   20  pwm
+   21  pwd
+   22  ls
+   23  clear
+   24  ls
+   25  ls -a
+   26  ls -A
+   27  ls -g
+   28  clear
+   29  ls 
+   30  pwd
+   31  cd ..
+   32  ls
+   33  cd alumno/
+   34  ls
+   35  clear
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd ..
+   40  clear
+   41  ls
+   42  ls -u
+   43  cd etc/
+   44  ls
+   45  ls *h
+   46  ls ap*
+   47  ls up*
+   48  cd ..
+   49  cd home/
+   50  cd alumno/
+   51  clear
+   52  touch
+   53  touch miArchivo
+   54  ls
+   55  clear
+   56  ls
+   57  touch hoalmundo.txy
+   58  touch hoalmundo.txt
+   59  clear
+   60  ls
+   61  rm hoalmundo.txt
+   62  ls
+   63  ls -l
+   64  clear
+   65  ls -l
+   66  tree
+   67  clear
+   68  mkdir Principal
+   69  ls
+   70  ls -l
+   71  mkdir Principal/Persona
+   72  tree
+   73  cd p
+   74  ls
+   75  clear
+   76  cd Principal/
+   77  clear
+   78  mkdir ../Secundario
+   79  ls
+   80  tree
+   81  cd ..
+   82  ls
+   83  tree
+   84  cd Principal/Persona/
+   85  pwd
+   86  clear
+   87  mkdir /home/alumno/Secundario/alumno
+   88  tree
+   89  ls
+   90  cd ../../Secundario/alumno/
+   91  ls
+   92  clear
+   93  cd ../../Principal/Persona/
+   94  mkdir ./uno/unoA
+   95  mkdir -p  ./uno/unoA
+   96  mkdir -p {estilos, funciones/logica, funciones/variables}
+   97  tree
+   98  rm -r funciones
+   99  tree
+  100  ls
+  101  cd ..
+  102  rm -r Personas
+  103  clear
+  104  mkdir -p {estilos,funciones/logica,funciones/variables}
+  105  tree
+  106  mkdir -p codigo/{java, c, php}/fuentes
+  107  tree
+  108  clear
+  109  mkdir -p codigo/{java,c,php}/fuentes
+  110  tree
+  111  ls
+  112  rm c,
+  113  rm -rc,
+  114  rm -r c,
+  115  ls
+  116  rm -r php}
+  117  rm -r codigo
+  118* rm -r 
+  119  rm -r codigo
+  120  rm -r funciones
+  121  rm -r estilos
+  122  ls
+  123  cd Persona
+  124  mkdir -p {estilos,funciones/logica,funciones/variables}
+  125  mkdir -p codigo/{java,c,php}/fuentes
+  126  ls
+  127  clear
+  128  tree
+  129  ls
+  130  cd
+  131  ls
+  132  mkdir hola
+  133  ls
+  134  cd hola
+  135  clear
+  136  mkdir -p dato/{personales{privados,publicos}/backup}{fiscales/{afip,arba}/pagos}
+  137  tree
+  138  rm -r dato
+  139  tree
+  140  clear
+  141  mkdir -p ./dato/personales/{privados,publicos}/backup../fiscales/{afip,arba}/pagos
+  142  tree
+  143  rm -r dato
+  144  tree
+  145  clear
+  146* mkdir -p ./dato/{personales/{privados,publicos}/backup,
+  147  tree
+  148  rm -r dato
+  149  tree
+  150  clear
+  151  -p ./dato/{personales/{privados,publicos}/backup,fiscales/{afip,arba}/pago
+  152  mkdir -p ./dato/{personales/{privados,publicos}/backup,fiscales/{afip,arba}/pago
+  153  tree
+  154  rm -r dato
+  155  mkdir -p ./dato/{personales/{privados,publicos}/backup,fiscales/{afip,arba}/pago}
+  156  tree
+  157  clear
+  158  mkdir -p ./dato/{personales/{privados,publicos}/backup,fiscales/{afip,arba}/pago}
+  159  tree
+  160  history > historialFede.utn
