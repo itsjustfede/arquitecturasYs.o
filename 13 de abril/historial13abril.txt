@@ -1,0 +1,59 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  firefox
+    7  man history
+    8  exit
+    9  su
+   10  exit
+   11  uname -a
+   12  exit
+   13  pwd
+   14  mkdir -p ./dato/{personales/{privados,publicos}/backup,fiscales/{afip,arba}/pagos}
+   15  tree
+   16  clear
+   17  tree
+   18  cd dato/fiscales/afip/pagos/
+   19  rm -r /home/alumno/dato
+   20  cd /home/alumno
+   21  ls
+   22  tree
+   23  clear
+   24  pwd
+   25  sudo su
+   26  sudo su -
+   27  history
+   28  echo "hola consola"
+   29  ls -l
+   30  echo "hola mundo consola" > saludar.txt
+   31  ls -l
+   32  cat saludar.txt
+   33  echo "borro lo anterior" > saludar.txt
+   34  cat saludar.txt
+   35  echo "continuando con lo anterior ">> saludar.txt
+   36  echo "continuando con lo anterior "X~ DDC> saludar.txt
+   37  6~
+   38  clear
+   39  saludar.txt md5sum
+   40  md5sum saludar.txt
+   41  ls -l
+   42  md5sum saludar.txt
+   43  sha256sum saludar.txt
+   44  echo sha256sum saludar.txt > hash.txt
+   45  ls -l
+   46  cat hash.txt
+   47  rm hash.txt
+   48  ls -l
+   49  sha256sum saludar.txt
+   50  sha256sum saludar.txt > hash.txt
+   51  ls -l
+   52  cat hash.txt
+   53  rm hash.txt
+   54  ls -l
+   55  sha256sum > hash.txt
+   56  ls -l
+   57  sha256sum saludar.txt >> hash.txt
+   58  cat hash.txt
+   59  history > historial13abril.txt
