@@ -1,0 +1,52 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  firefox
+    7  man git
+    8  mkdir ejemploGit
+    9  cd ejemploGit/
+   10  git clone https://github.com/itsjustfede/PracticaGitHUb.git
+   11  ls
+   12  cd PracticaGitHUb/
+   13  ls
+   14  echo "Hola github" > saludar.txt
+   15  ls -l
+   16  git status
+   17  git add saludar.txt 
+   18  git status
+   19  git commit -m "Primer commit local"
+   20  git config --glonal user.email "fede00skyler@gmail.com"
+   21  git config --global user.email "fede00skyler@gmail.com"
+   22  git config --global user.name "itsjustfede"
+   23  git status
+   24  git commit -m "Primer commit local"
+   25  git status
+   26  pwd
+   27  mkdir Apuntes
+   28  cd Apuntes/
+   29  echo "enunciado" >enunciado.txt
+   30  echo "solucion" >solucion.txt
+   31  ls -l
+   32  cd ..
+   33  ls
+   34  git status
+   35  git add Apuntes/
+   36  git status
+   37  git commit -m "commit con apuntes"
+   38  cd Apuntes/
+   39  echo "algo agregado" >> enunciado.txt 
+   40  echo "algo sobrescrito" > solucion.txt 
+   41  git status
+   42  cd ..
+   43  git add Apuntes/
+   44  cd Apuntes/
+   45  git add enunciado.txt 
+   46  git commit -m "con cambios en los archivos"
+   47  git log
+   48  cd ..
+   49  git push 
+   50  git push origin master
+   51  history > home/historial20DeAbril.txt
+   52  history >historial20DeAbril.txt
