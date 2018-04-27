@@ -1,0 +1,113 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  firefox
+    7  exit
+    8  man ls
+    9  man ud
+   10  man du
+   11  man cp
+   12  pwd
+   13  mkdir prueba
+   14  cd prueba/
+   15  echo "as" > hola.txt
+   16  ls
+   17  cd ..
+   18  ls
+   19  cp prueba/hola.txt ./holaaa
+   20  cp prueba/hola.txt ./holaaa/hola
+   21  cp -p  prueba/hola.txt ./holaaa/hola
+   22  cp -u prueba/hola.txt ./holaaa/hola
+   23  cp -t prueba/hola.txt ./holaaa/hola
+   24  cp -t prueba/hola.txt ./holaa/
+   25  cp -f prueba/hola.txt ./holaa/
+   26  man less
+   27  man more
+   28  ls
+   29  more saludar.txt 
+   30  less saludar.txt 
+   31  cat saludar.txt 
+   32  tree
+   33  clear
+   34  man more
+   35  cat /etc/passwd 
+   36  man cat
+   37  more /etc/passwd 
+   38  man more
+   39  less /etc/passwd 
+   40  man less
+   41  man rm
+   42  man rmdir
+   43  man rm
+   44  clear
+   45  man man
+   46  clear
+   47  mkdir -p  ./Sistemas/{Contabilidad/Recursos,Recursos-Humanos}/{Archivos,Recursos,Usuarios}/
+   48  mkdir -p  ./Sistemas/{Contabilidad//{Archivos,Recursos,Usuarios}/
+   49  clar
+   50  clear
+   51  mdkir -p ./Sistemas/{Contabilidad{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}
+   52  mkdir -p ./Sistemas/{Contabilidad{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}
+   53  tree
+   54  clear
+   55  mkdir -p ./Sistemas/{Contabilidad{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+   56  tree
+   57  clear
+   58  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+   59  tree
+   60  clear
+   61  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+   62  echo hola.txt
+   63  ls -l
+   64  cat hola.txt
+   65  touch hola.txt
+   66  ls -l
+   67  echo "as" as.txt
+   68  ls
+   69  echo > as.txt
+   70  touch ./Sistemas/Recursos-Humanos/recur_contra.txt
+   71  echo "aa" > as.txt 
+   72  tti
+   73  tty
+   74  ls > /dev/pts/8
+   75  cat /etc/passwd > /dev/pts/8
+   76  tty
+   77  cat /dev/pts/8
+   78  man mv
+   79  mv as.txt fede.txt
+   80  tree
+   81  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+   82  echo > ./Sistemas/Recursos-Humanos/recur_contra.txt
+   83  echo "Recurso contable general."  > ./Sistemas/Recursos-Humanos/recur_contra.txt
+   84  cat ./Sistemas/Recursos-Humanos/recur_contra.txt > ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt
+   85  cat ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt 
+   86  mv ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt recu_rh
+   87  cp ./Sistemas/Recursos-Humanos/recur_contra.txt > ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt
+   88  mv ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt ./Sistemas/Contabilidad/Recursos/
+   89  tree
+   90  rm ./Sistemas/Recursos-Humanos/recur_contra.txt 
+   91  tree
+   92  cat ./Sistemas/Contabilidad/Recursos/recur_contra.txt > ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt
+   93  tree
+   94  mv ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt ./Sistemas/Recursos-Humanos/Archivos/recu_rh_usu02.txt
+   95  tree
+   96  rm ./Sistemas/Recursos-Humanos/Archivos/recu_rh_usu02.txt 
+   97  tree
+   98  cat ./Sistemas/Contabilidad/Recursos/recur_contra.txt > ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt
+   99  tree
+  100  mv ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt ./Sistemas/Recursos-Humanos/Archivos/recu_rh.txt
+  101  tree
+  102  rm ./Sistemas/Recursos-Humanos/Archivos/recu_rh.txt
+  103  tree
+  104  cp ./Sistemas/Recursos-Humanos/recur_contra.txt > ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt
+  105  mv ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt ./Sistemas/Contabilidad/Recursos/
+  106  tree
+  107  cat ./Sistemas/Contabilidad/Recursos/recur_contra.txt > ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt
+  108  tree
+  109  mv ./Sistemas/Recursos-Humanos/Archivos/recur_contra.txt ./Sistemas/Recursos-Humanos/Archivos/recu_rh.txt
+  110  tree
+  111  cp ./Sistemas/Recursos-Humanos/Archivos/recu_rh.txt  ./Sistemas/Recursos-Humanos/Usuarios/usu02/
+  112  tree
+  113  history > historial27Abril.txt
