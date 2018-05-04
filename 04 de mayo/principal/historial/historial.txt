@@ -1,0 +1,7 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  which passwd
+    7  history > ./principal/historial/historial.txt

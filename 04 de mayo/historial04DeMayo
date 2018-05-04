@@ -1,0 +1,118 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  which passwd
+    7  history > ./principal/historial/historial.txt
+    8  /usr/bin/passwd > ./principal/datos/personales/datos.txt
+    9  tree
+   10  /etc/passwd > ./principal/datos/personales/datos.txt
+   11  sudo /etc/passwd > ./principal/datos/personales/datos.txt
+   12  cat /etc/passwd
+   13  sudo cat /etc/passwd > ./principal/datos/personales/datos.txt
+   14  clear
+   15  cat principal/datos/personales/datos.txt 
+   16  clear
+   17  tree
+   18  mv ./principal/fotos/compartidas/foto1.jpeg ./principal/fotos/bloqueadas/
+   19  mv ./principal/fotos/compartidas/foto2.jpeg ./principal/fotos/bloqueadas/
+   20  mv ./principal/fotos/compartidas/foto2.png ./principal/fotos/bloqueadas/
+   21  tree
+   22  clear
+   23  tree
+   24  mv ./principal/fotos/bloqueadas/foto1.jpeg ./principal/fotos/compartidas/
+   25  clear
+   26  tree
+   27  echo fede.txt
+   28  echo > fede.txt
+   29  ls -l
+   30  ls -l > fede.txt 
+   31  clear
+   32  cd /
+   33  ls pipe less
+   34  ls
+   35  pipe less
+   36  clear
+   37  ls pipe less
+   38  ls | less
+   39  ls -l
+   40  | less
+   41  ls -l
+   42  ls | less
+   43  clear
+   44  ls | head 3
+   45  ls -l
+   46  ls | head 3
+   47  ls | head -3
+   48  ls | tail -3
+   49  ls | head -3 | tail -1
+   50  ls /media/ && echo "Hola"
+   51  ls -l
+   52  ls /media/ && echo "Hola"
+   53  ls /medios && echo "Hola"
+   54  man apt
+   55  ls etc/apt/
+   56  ls -l etc/apt/
+   57  cat etc/apt/sources.list
+   58  ls var/lib/
+   59  ls -l var/lib/
+   60  ls -l etc/apt/sources.list.d/
+   61  ls -l etc/apt/sources.list
+   62  ls -l etc/apt/trusted.gpg.d/
+   63  ls -l etc/apt/preferences.d/
+   64  ls -l etc/apt/apt.conf.d/
+   65  clear
+   66  ap-check
+   67  apt-check
+   68  apt -check
+   69  sudo apt-check
+   70  apt-get check
+   71  sudo apt-get check
+   72  ls -l var/lib/apt/
+   73  ls -l var/lib/apt/lists/
+   74  clear
+   75  apt-get update 
+   76  sudo apt-get update 
+   77  sudo apt-get upgrade 
+   78  sudo apt-get update 
+   79  sudo apt-get upgrade 
+   80  sudo apt-get clean 
+   81  apt-get clean 
+   82  apt-get auto clean 
+   83  apt-get autoclean 
+   84  ls -l var/cache/apt/archives/
+   85  apt-get autoremove 
+   86  apt-get cache
+   87  apt-cache search 
+   88  apt-cache search mozilla
+   89  apt-get install terminator
+   90  sudo apt-get install terminator
+   91  apt-get -f intall terminator
+   92  apt-get intall -f terminator
+   93  sudo apt-get intall -f terminator
+   94  sudo apt-get install -f terminator
+   95  sudo apt-get --reinstall mozilla
+   96  sudo apt-get --reinstall firefox
+   97  sudo apt-get install mc
+   98  sudo apt-get install nc
+   99  sudo apt-get install mc
+  100  mc
+  101  dpkg
+  102  man dpkgg
+  103  man dpkg
+  104  dpkg -i
+  105  sudo dpkg -i
+  106  sudo dpkg -l
+  107  sudo dpkg -l | more
+  108  dpkg -r mc
+  109  suod dpkg -r mc
+  110  sudo dpkg -r mc
+  111  sudo dpkg -L mc 
+  112  which ls
+  113  dpkg -S bin/ls
+  114  which man
+  115  dpkg -S /usr/bin/man
+  116  history > ./historial04DeAbril
+  117  cd 
+  118  history > ./historial04DeAbril
