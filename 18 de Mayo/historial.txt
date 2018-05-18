@@ -1,0 +1,277 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  cal mail.txt
+   18  cat mail.txt
+   19  nano mail.txt
+   20  pdw 
+   21  pwd
+   22  vi man
+   23  cat mail.txt
+   24  nano mail.txt
+   25  cat mail.txt
+   26  vi mail
+   27  cata mail
+   28  cat mail
+   29  cat mail.txt
+   30  egrep -io '[a-z0-9]' mail.txt
+   31  egrep -io '[a-z0-9..]' mail.txt
+   32  egrep -io '[a-z0-9.@..]' mail.txt
+   33  egrep -io '[a-z0-9-@]' mail.txt
+   34  egrep -io '[a-z0-9 @]' mail.txt
+   35  egrep -io '[a]' mail.txt
+   36  egrep -io '[.]' mail.txt
+   37  egrep -io '\b[.]' mail.txt
+   38  egrep -io '\b[a]' mail.txt
+   39  egrep -io '\b[a-]' mail.txt | more
+   40  egrep -io '[a-z0-9-@]' mail.txt
+   41  egrep -io '[a-z0-9.@..]' mail.txt
+   42  egrep -io '/b[a-z0-9.@..]' mail.txt
+   43  egrep -io '\b[a-z0-9.@..]' mail.txt
+   44  egrep -io '\b[a-z0-9.@..]+' mail.txt
+   45  egrep -io '[a-z0-9.@..]+' mail.txt
+   46  egrep -io '[a-z0-9._]+@' mail.txt
+   47  nano mail.txt
+   48  cat mail.txt
+   49  egrep -io '[a-z 0-9]+@' mail.txt
+   50  egrep -io '[a-z 0-9 ._]+@' mail.txt
+   51  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+.' mail.txt
+   52  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+.[a-z]' mail.txt
+   53  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+.[a-z]+' mail.txt
+   54  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+\.[a-z]{2,4}' mail.txt
+   55  cat mail.txt
+   56  nano mail.txt
+   57  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+\.[a-z]{2,4}' mail.txt
+   58  cat mail
+   59  cat mail.txt
+   60  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+\.[a-z]{2,4}' mail.txt
+   61  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+\.[a-z]{1,2}' mail.txt
+   62  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+\.[a-z]' mail.txt
+   63  egrep -io '[a-z 0-9 ._]+@[a-z 0-9]+\.[a-z]+' mail.txt
+   64  pi man
+   65  man pi
+   66  pi man
+   67  pi man man
+   68  cat mail.txt | cut -d'.' f3
+   69  cat mail.txt | cut -d'.' f3 | more
+   70  cat mail.txt | cut -d'.' | more
+   71  cat /etc/passwd| cut -d'.' -f5- | more
+   72  cat /etc/passwd| cut -d'.' -f5f8 | more
+   73  cat /etc/passwd| cut -d'.' -f5-f8 | more
+   74  cat /etc/passwd| cut -d'.' -f5 f8 | more
+   75  cat /etc/passwd| cut -d'.' -f5-f8 | more
+   76  cat /etc/passwd| cut -d'.' -f5-8 | more
+   77  cat /etc/passwd| cut -d':' -f1-3 | more
+   78  cat /etc/passwd| cut -d':' -f1-8 | more
+   79  cat /etc/passwd| cut -d':' -f2-3-7 | more
+   80  cat /etc/passwd| cut -d':' -f2-3- | cut -d':' -f6-8 | more
+   81  cat /etc/passwd| cut -d':' -f2-3 | cut -d':' -f6-8 | more
+   82  cat /etc/passwd| cut -d':' -f2-3 | more
+   83  cat /etc/passwd| cut -d':' -f2-3-6-7 |  more
+   84  cat /etc/passwd| cut -d':' -f2-3 && cat /etc/passwd | cut -d':' -f7-9 | more
+   85  cat /etc/passwd| cut -d':' -f2-3 +  cat /etc/passwd | cut -d':' -f7-9 | more
+   86  cat /etc/passwd| cut -d':' -f2-3 & cat /etc/passwd | cut -d':' -f7-9 | more
+   87  cat /etc/passwd| cut -d':' -f2-3 |  cat /etc/passwd | cut -d':' -f7-9 | more
+   88  cat /etc/passwd| cut -d':' -f2-3 |  && cat /etc/passwd | cut -d':' -f7-9 | more
+   89  cat /etc/passwd| cut -d':' -f2-3 |  & cat /etc/passwd | cut -d':' -f7-9 | more
+   90  cat /etc/passwd| cut -d':' -f2-4 | grep 'root' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   91  cat /etc/passwd| cut -d':' -f1-4 | grep 'root' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   92  cat /etc/passwd| cut -d':' -f1-4 | grep 'x' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   93  cat /etc/passwd| cut -d':' -f1-4 | grep 'o' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   94  cat /etc/passwd| cut -d':' -f1-4 | grep 's' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   95  cat /etc/passwd| cut -d':' -f1-4 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   96  cat /etc/passwd| cut -d':' -f1-4 | grep 'root' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   97  cat /etc/passwd| cut -d':' -f1-7 | grep 'root' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   98  cat /etc/passwd| cut -d':' -f1-5 | grep 'root' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+   99  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/:/\t /g'
+  100  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/\t /g'
+  101  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed '/\t /g'
+  102  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/-/\t /g'
+  103  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/-/:/\t /g'
+  104  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/-s/:/\t /g'
+  105  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/-:/\t /g'
+  106  cat /etc/passwd| cut -d':' -f1-5 | grep 'sy' | tr 'a-z' 'A-Z' | sed 's/-/\t /g'
+  107  cp /etc/passwd .
+  108  ls
+  109  rm passwd
+  110  ls
+  111  cp /etc/passwd .
+  112  ls
+  113  pwd
+  114  sed 's/:\t/g' passwd
+  115  sed 's/:{\t/g' passwd
+  116  sed 's/:/\t/g' passwd
+  117  sed 's/:/\t/g' passwd >> -i
+  118  sed 's/:/\t/g' passwd >> -ils
+  119  ls
+  120  rm -i
+  121  ls
+  122  sed 's/:/\t/g' passwd
+  123  ls
+  124  rm -s -i
+  125  rm ./-i
+  126  ls
+  127  rm ./-ils
+  128  ls
+  129  grep mail.txt
+  130  grep r mail.txt
+  131  grep a mail.txt
+  132  cat mail.txt
+  133  cat mail.txt << asas
+  134  asdasda
+  135  112312312
+  136  cat mail.txt
+  137  ls
+  138  cat mail.txt << eje
+  139  eje
+  140  man <<
+  141  ls
+  142  cat mail.txt
+  143  history
+  144  mkdir -p Sistemas/{Contabilidad{Recursos},Recursos_Humanos}/Archivos,Usuarios
+  145  ls
+  146  ls sistemas
+  147  ls Sistemas
+  148  rm Sistemas
+  149  rm -iSistemas
+  150  rm -i Sistemas
+  151  rm -p Sistemas
+  152  rm man
+  153  man rm
+  154  rm -d Sistemas
+  155  rm -f -d Sistemas
+  156  rm -f Sistemas
+  157  rm -f -d Sistemas
+  158  man rm
+  159  rm --dir Sistemas
+  160  rm --dir sistemas
+  161  rm --dir -f  Sistemas
+  162  tree Sistemas
+  163  rm /Sistemas/Contabilidad{Recursos}/Archivos,Usuarios
+  164  rm -d /Sistemas/Contabilidad{Recursos}/Archivos,Usuarios
+  165  rm -f /Sistemas/Contabilidad{Recursos}/Archivos,Usuarios
+  166  ls
+  167  tree Sistemas
+  168  rm -f Sistemas
+  169  rm -f -d Sistemas
+  170  --remove -f -d Sistemas
+  171  rm man
+  172  man rm
+  173  rm -i -f -d Sistemas
+  174  rm -i-f  Sistemas
+  175  rm -i -f  Sistemas
+  176  man mkdir
+  177  rm -r Sistemas
+  178  ls
+  179  mkdir -p Sistemas/{Contabilidad/Recursos,Recursos-Humanos}/Archivos,Usuario
+  180  ls
+  181  tree Sistemas
+  182  rm -r Sistemas/Contabilidad/recursos
+  183  rm -r Sistemas/Contabilidad/Recursos
+  184  tree Sistemas
+  185  rm -r Sistemas/Recursos-Humanos/Archivos,Usuario
+  186  tree Sistemas
+  187  mkdir -p Sistemas/{Contabilidad,/Recursos-Humanos}/Archivos 
+  188  tree Sistemas
+  189  mkdir -p Sistemas/{Contabilidad,/Recursos-Humanos}/Archivos && /Usuarios 
+  190  mkdir -p Sistemas/{Contabilidad,/Recursos-Humanos}/Archivos | /Usuarios
+  191  mkdir -p Sistemas/{Contabilidad,/Recursos-Humanos}/{Archivos,Usuarios}
+  192  tree Sistemas
+  193  mkdir -p Sistemas/{Contabilidad/{Recursos},/Recursos-Humanos}/{Archivos,Usuarios}
+  194  tree Sistemas
+  195  mkdir -p Sistemas/{Contabilidad,/Recursos-Humanos}/{Archivos,Usuarios}
+  196  tree Sistemas
+  197  mkdir -p Sistemas/{Contabilidad,/Recursos-Humanos}/{Archivos,Usuarios}
+  198  tree Sistemas
+  199  tree Sistema
+  200  rm -r Sistemas/Contabilidad/{Recursos}
+  201  tree Sistemas
+  202  mkdir -p Sistemas/Contabilidad/Recursos
+  203  tree Sistemas
+  204  mkdir -p Sistemas/Contabilidad/Usuarios/usu01
+  205  mkdir -p Sistemas/Recursos-Humanos/Usuarios/usu01
+  206  tree Sistemas
+  207  gedit Sistemas/Recursos recur_conta.txt
+  208  nano Sistemas/Recursos recur_conta.txt
+  209  tree Sistemas
+  210  cat Sistemas/Recursos/recur_conta.txt
+  211  nano /Sistemas/Recursos recur_conta.txt
+  212  ls
+  213  rm recur_conta.txt
+  214  nano Sistemas/Recursos/recur_conta.txt
+  215  nano -p Sistemas/Recursos/recur_conta.txt
+  216  man nano
+  217  nano ./Sistemas/Recursos/recur_conta.txt
+  218  touch /Sistemas/Recursos/recur_conta.txt
+  219  touch -p /Sistemas/Recursos/recur_conta.txt
+  220  man touch
+  221  touch /Sistemas/Recursos-Humanos/recur_conta.txt
+  222  touch Sistemas/Recursos-Humanos/recur_conta.txt
+  223  tree Sistemas
+  224  rm -r Sistemas/Recursos-Humanos/recur_conta.txt
+  225  nano Sistemas/Recursos-Humanos/recur_conta.txt
+  226  cat Sistemas/Recursos-Humanos/recur_conta.txt
+  227  nano Sistemas/Recursos-Humanos/recur_conta.txt Sistemas/Recursos-Humanos/Archivos
+  228  nano Sistemas/Recursos-Humanos/recur_conta.txt >> Sistemas/Recursos-Humanos/Archivos
+  229  nano Sistemas/Recursos-Humanos/recur_conta.txt >> Sistemas/Recursos-Humanos/Archivos/recur_conta.txt
+  230  mdkir miDisco
+  231  mkdir miDisco
+  232  ls
+  233  mkdir midisco
+  234  mkdir /media/alumno/Juegos
+  235  exit
+  236  fdisk sda
+  237  fdisk sdb
+  238  ls sd*
+  239  man mkfs
+  240  mkfs sdb1
+  241  man mount
+  242  man unmount
+  243  man umount
+  244  mount /dev/sdb1 miDisco/
+  245  umount sdb1
+  246  mount /dev/sdb1 midisco/
+  247  umount sdb1
+  248  mount /dev/sdb1 midisco/
+  249  mount /dev/sdb1 miDisco/
+  250  su mkdir /media/alumno/Fotos
+  251  mkdir /media/alumno/Fotos
+  252  fdisk
+  253  p
+  254  fdisk
+  255  fdisk -l
+  256  fdisk sda
+  257  fdisk sdb
+  258  fdisk 
+  259  fdisk -l
+  260  mkfs
+  261  fdisk
+  262  fdisk sdb
+  263  fdisk -l
+  264  mkfs
+  265  mkfs sdb2
+  266  mkfs sdb3
+  267  mount /dev/sdb2 Fotos/
+  268  mount /dev/sdb2 /media/alumno/Fotos/
+  269  mount /dev/sdb3 /media/alumno/Juegos/
+  270  mount /dev/sdb1 /media/alumno/midisco/
+  271  df -h
+  272  clear
+  273  fdisk sdc
+  274  clear
+  275  more /proc/cpuinfo 
+  276  more /proc/meminfo 
+  277  history > /home/alumno/Escritorio/18\ de\ Mayo/historial.txt
