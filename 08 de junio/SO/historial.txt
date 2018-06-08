@@ -1,0 +1,39 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  top
+    7  ps - ef
+    8  ps -ef
+    9  top
+   10  ps
+   11  ps -e
+   12  top
+   13  cd SO/
+   14  cd usuario/
+   15  cat zombi.c
+   16  cat nozombi.c
+   17  top
+   18  ps
+   19  ps -x
+   20  man grep
+   21  echo "tumail@tumail.com" >> ./mails.txt
+   22  cat mails.txt 
+   23  echo "eduardo@gmail.com" >> ./mails.txt
+   24  echo "tumail@gmail.com" >> ./mails.txt
+   25  echo "pepe88@hotmail.com" >> ./mails.txt
+   26  echo "lgrn7@ymail.com" >> ./mails.txt
+   27  echo "personas.com.soluciones@empresa.info" >> ./mails.txt
+   28  cat mails.txt 
+   29  grep root /etc/passwd
+   30  cat /etc/passwd | grep root
+   31  cat /etc/passwd | grep root > archivito.txt
+   32  cat ./mails.txt | grep .com
+   33  cat ./mails.txt | grep com$
+   34* cat ./mails.AAAB
+   35  cat ./mails.txt | grep ^tumail
+   36  cat ./mails.txt | grep [0-9]
+   37  cat ./mails.txt | grep [gm]
+   38  cat ./mails.txt | grep gm
+   39  history > historial.txt
